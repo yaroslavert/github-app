@@ -1,0 +1,1 @@
+export const UPDATE_SIDEBAR_MENU = 'app/Sidebar/UPDATE_SIDEBAR_MENU'

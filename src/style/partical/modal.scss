@@ -1,0 +1,50 @@
+@keyframes animatetop {
+	from {
+		top: -50%;
+		opacity: 0;
+	}
+	to {
+		top: 50%;
+		opacity: 1;
+	}
+}
+
+@keyframes animateup {
+	from {
+		top: 50%;
+		opacity: 0;
+	}
+	to {
+		top: -50%;
+		opacity: 1;
+	}
+}
+
+.modal-window {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #fff;
+	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+	text-align: center;
+	animation-name: animatetop;
+	animation-duration: 0.4s;
+	outline: none;
+	border-radius: 6px;
+	&.close {
+		animation-name: animateup;
+		animation-duration: 0.4s;
+	}
+}
+.modal-window-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+	overflow: auto !important;
+	z-index: 100;
+}

@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
+	&::before,
+	&::after {
+		margin: 0;
+		padding: 0;
+		outline: 0;
+		box-sizing: border-box;
+	}
+}
+html {
+	font-size: 16px;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+}
+a {
+	text-decoration: none;
+	transition: color 0.3s;
+	&:hover {
+		color: #009ed0; //Blue 03
+	}
+}
+li {
+	list-style: none;
+}

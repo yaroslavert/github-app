@@ -1,0 +1,12 @@
+export const GET_USER_REQUEST = 'app/Profile/GET_USER_REQUEST'
+export const GET_USER_SUCCESS = 'app/Profile/GET_USER_SUCCESS'
+export const GET_USER_ERROR = 'app/Profile/GET_USER_ERROR'
+export const USER_UPDATE_REQUEST = 'app/Profile/USER_UPDATE_REQUEST'
+export const USER_UPDATE_SUCCESS = 'app/Profile/USER_UPDATE_SUCCESS'
+export const USER_UPDATE_ERROR = 'app/Profile/USER_UPDATE_ERROR'
+export const USER_CHANGE_PASSWORD_REQUEST =
+	'app/Profile/USER_CHANGE_PASSWORD_REQUEST'
+export const USER_CHANGE_PASSWORD_SUCCESS =
+	'app/Profile/USER_CHANGE_PASSWORD_SUCCESS'
+export const USER_CHANGE_PASSWORD_ERROR =
+	'app/Profile/USER_CHANGE_PASSWORD_ERROR'
